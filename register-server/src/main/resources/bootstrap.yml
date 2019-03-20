@@ -1,0 +1,8 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: registry-server
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
